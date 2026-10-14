@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import vector from '../assets/vector.png'
+import Vector from '../assets/Vector.png'
 import close from '../assets/close.png'
 import logo from '../assets/logo.png'
 
@@ -31,7 +31,7 @@ const Navbar = () => {
         <a href="#contact" className="px-3 py-3 rounded-2xl border-2 border-[#4FC3F7] text-[#4FC3F7] text-md font-medium">Hire Me</a>
 
         <button onClick={() => setOpen(!open)} className="sm:hidden">
-          <img src={vector} alt="Menu" className="w-6 h-6" />
+          <img src={Vector} alt="Menu" className="w-6 h-6" />
         </button>
 
       </div>
