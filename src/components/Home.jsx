@@ -5,7 +5,7 @@ import Resume from '../assets/Resume.pdf'
 import bgrelay from '../assets/bgrelay.png'
 import github from '../assets/github.png'
 import linkedin from '../assets/linkedin.png'
-import Email from '../assets/Email.png'
+import email from '../assets/email.png'
 
 const Home = () => {
   return (
@@ -30,7 +30,7 @@ const Home = () => {
             <div className='flex flex-wrap items-center justify-center gap-4'>
               <a href="https://github.com/BharatAkhil0547"><img src={github} alt="" className='w-10 h-10 rounded-full border bg-white' /></a>
               <a href="https://www.linkedin.com/in/bharat-akhil-chaitanya-gandepalli-8955481a5/?isSelfProfile=true"><img src={linkedin} alt="" className='w-10 h-10 rounded-full border' /></a>
-              <a href="mailto:bharathakhil1111@gmail.com"><img src={Email} alt="" className='w-10 h-10 rounded-full border bg-white'/></a>
+              <a href="mailto:bharathakhil1111@gmail.com"><img src={email} alt="" className='w-10 h-10 rounded-full border bg-white'/></a>
               {/* <a href="#">Leetcode</a>
               <a href="#">HackerRank</a> */}
 
